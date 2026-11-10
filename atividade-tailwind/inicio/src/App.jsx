@@ -7,15 +7,16 @@ import Footer from './components/Footer.jsx'
 
 export default function App() {
   return (
-    // EXERCÍCIO 1: estilize esta div (ela faz o papel do <body>)
-    <div className='min-h-screen bg-stone-50 text-stone-800'>
+    <div className="min-h-screen bg-pink-50 text-stone-800 flex flex-col">
       <Header />
-      <main>
+
+      <main className="flex-grow">
         <Hero />
         <Cardapio />
         <Sobre />
         <Contato />
       </main>
+
       <Footer />
     </div>
   )
